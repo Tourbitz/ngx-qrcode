@@ -30,9 +30,9 @@
     "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
-    "codelyzer": "~4.2.1",
-    "core-js": "^2.5.4",
+    "codelyzer": "^5.2.1",
     "del": "3.0.0",
+    "glob": "^7.1.2",
     "gulp": "^3.9.1",
     "gulp-rollup": "^2.11.0",
     "jasmine-core": "~2.99.1",
@@ -43,7 +43,7 @@
     "karma-coverage-istanbul-reporter": "^0.2.0",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "node-watch": "^0.5.2",
+    "node-watch": "^0.6.3",
     "protractor": "~5.1.0",
     "rollup": "^0.41.6",
     "run-sequence": "^1.2.2",
@@ -51,14 +51,13 @@
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
     "typescript": "~3.2.4",
-    "zone.js": "^0.8.26",
-    "glob": "^7.1.2"
+    "zone.js": "^0.8.26"
   },
   "engines": {
     "node": ">=6.0.0"
   },
   "dependencies": {
-    "qrcode": "^0.8.2"
+    "qrcode": "^1.4.4"
   },
   "description": "An Angular 6 Component library for Generating QR (Quick Response ) Codes.",
   "homepage": "https://github.com/techiediaries/ngx-qrcode#readme",
